@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.imagen-more, .imagen-principal {
+  display: flex;
+  flex-direction: center;
+  border: double 5px rgb(217, 187, 169);
+}
+
+.imagen-principal {
+  width: 97%;
+  height: 97%;
+}
+
+.navFondo {
+  border: double 5px rgb(217, 187, 169);
+  background-color: rgb(89, 35, 22);
+}
+.navFondo ul li a {
+  text-decoration: none;
+  color: white !important;
+  font-family: "Roboto", sans-serif;
+  width: 3rem;
+  font-size: 2rem;
+  width: 100%;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.navFondo ul li a:hover {
+  color: #D93A2B !important;
+}
+
+.transform:hover {
+  transform: translateX(15px);
+  cursor: pointer;
+}
+
+.transformlogo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btn-menu {
+  color: white;
+  font-size: 25px;
+  background: white;
+}
+
+.logo {
+  width: 150px;
+  border: double 6px rgb(217, 187, 169);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/fondo.png);
+}
+
+.imagen__desayuno--lg {
+  width: 98%;
+  height: 98%;
+  border: double 5px rgb(217, 187, 169);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background-color: rgba(89, 35, 22, 0.8);
+  border: double 1px rgb(217, 187, 169);
+  text-align: center;
+  padding: 10px 10px;
+}
+
+h2, h3, h4, h5, h6 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background-color: rgba(89, 35, 22, 0.8);
+  border: double 1px rgb(217, 187, 169);
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.transformY:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+div article {
+  margin: 20px 0px;
+}
+div article p {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(89, 35, 22);
+  width: auto;
+  font-size: 2rem;
+  margin: 0px 0px;
+}
+
+.imagen__items--md {
+  size: 80%;
+  border: double 5px rgb(217, 187, 169);
+  align-items: center;
+  display: flex;
+  flex-direction: center;
+}
+
+@keyframes animateD {
+  0% {
+    background-color: rgb(89, 35, 22);
+    width: 100%;
+  }
+  100% {
+    background-color: rgb(217, 187, 169);
+    width: 100%;
+  }
+}
+.animate {
+  animation-name: animateD;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+.text-italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.margin-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+form {
+  font-size: 2rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: auto;
+  width: auto;
+  background-color: rgb(89, 35, 22);
+  border: double 5px rgb(217, 187, 169);
+  text-align: left;
+  align-items: center;
+}
+
+.titule {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  background-color: rgba(217, 58, 43, 0.8);
+  border: double 4px rgb(89, 35, 22);
+  text-align: center;
+}
+
+.titule2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  background-color: rgba(217, 58, 43, 0.8);
+  border: double 4px rgb(217, 187, 169);
+  text-align: center;
+}
+
+.contenido {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: rgb(217, 187, 169);
+  border: double 4px rgb(89, 35, 22);
+  text-align: left;
+  text-decoration: inherit;
+}
+
+.contenidoTexto {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(217, 187, 169);
+  text-align: left;
+}
+
+.imagendes {
+  border: double 5px rgb(217, 187, 169);
+}
+
+/*inicia footer*/
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.pie__icon--sm {
+  width: 40px;
+}
+
+.scale:hover {
+  transform: scale(2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pie {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 80px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+
+.pretty-button {
+  margin: 10px 2px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: #0093D5;
+  border: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  height: 10%;
+}
+/*# sourceMappingURL=main.css.map */

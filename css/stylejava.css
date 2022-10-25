@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+.navFondo {
+  border: double 5px rgb(217, 187, 169);
+  background-color: rgb(89, 35, 22);
+}
+.navFondo ul li a {
+  text-decoration: none;
+  color: white !important;
+  font-family: "Roboto", sans-serif;
+  width: 3rem;
+  font-size: 2rem;
+  width: 100%;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.navFondo ul li a:hover {
+  color: #D93A2B !important;
+}
+
+.transform:hover {
+  transform: translateX(15px);
+  cursor: pointer;
+}
+
+.transformlogo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btn-menu {
+  color: white;
+  font-size: 25px;
+  background: white;
+}
+
+.logo {
+  width: 150px;
+  border: double 6px rgb(217, 187, 169);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/fondo.png);
+}
+
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background-color: rgba(89, 35, 22, 0.8);
+  border: double 1px rgb(217, 187, 169);
+  text-align: center;
+  padding: 10px 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background-color: rgba(89, 35, 22, 0.8);
+  border: double 1px rgb(217, 187, 169);
+  text-align: center;
+}
+
+.transformY:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+div article p {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(89, 35, 22);
+  width: auto;
+  font-size: 2rem;
+  margin: 0px 0px;
+}
+
+
+
+
+.text-italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.margin-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+form {
+  font-size: 2rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: auto;
+  width: auto;
+  background-color: rgb(89, 35, 22);
+  border: double 5px rgb(217, 187, 169);
+  text-align: left;
+  align-items: center;
+}
+
+.titule {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  background-color: rgba(217, 58, 43, 0.8);
+  border: double 4px rgb(89, 35, 22);
+  text-align: center;
+}
+
+.titule2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  background-color: rgba(217, 58, 43, 0.8);
+  border: double 4px rgb(217, 187, 169);
+  text-align: center;
+}
+
+.contenido {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: rgb(217, 187, 169);
+  border: double 4px rgb(89, 35, 22);
+  text-align: left;
+  text-decoration: inherit;
+}
+
+.contenidoTexto {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(217, 187, 169);
+  text-align: left;
+}
+
+.imagendes {
+  border: double 5px rgb(217, 187, 169);
+}
+
+/*inicia footer*/
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.pie__icon--sm {
+  width: 40px;
+}
+
+.scale:hover {
+  transform: scale(2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pie {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 80px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+p{
+  size: 100px;
+}
+
+.card {
+  background-color:  rgb(217, 187, 169);
+  margin: 2px;
+  border: double 4px rgb(89, 35, 22);
+
+}
+
+
+
+.text-right{
+  font-size: 19px;
+  background-color:  rgb(89, 35, 22); 
+  color: white
+}
+
+
+
+
+.card-text{
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+
+.btn{
+  font-size: 15px;
+  background-color: rgba(217, 58, 43, 0.8);
+}
+
+.fixed {
+  position: fixed;
+  width: 20%;
+  height: 20%;
+  top: 160px;
+
+  right: 50px;
+
+position: fixed;}
+
+
+.textli{
+  font-size: 10px;
+
+}
+
+.centro {
+  display: flex;
+  align-items: center;
+}

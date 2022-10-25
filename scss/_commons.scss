@@ -1,0 +1,152 @@
+html{
+	font-size:$normalizar
+}
+
+
+body{background-image: $fondo;}
+
+
+.imagen__desayuno--lg{
+	width: 98%;
+	height: 98%;
+	border: double 5px $colorSecundario;
+
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+h1{
+@include texto(white,3rem);
+padding: 10px 10px;
+
+}
+
+
+h2,h3,h4,h5,h6{
+@include texto(white,2.5rem);
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.transformY:hover{
+	transform: translateY(-20px);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+div article{ 
+	margin: 20px 0px;
+
+
+	 p {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	background-color:$colorPrincipal;
+	width: auto;
+	font-size: 2rem;
+	margin: 0px 0px;
+}
+
+}
+
+
+.imagen__items--md{
+  size:80%;
+  border: double 5px rgb(217, 187, 169);
+  align-items: center;
+  display: flex;
+  flex-direction: center;
+  ;
+}
+
+
+
+@keyframes animateD{
+	0%{background-color: $colorPrincipal; width: 100%;}
+	100%{background-color:$colorSecundario; width: 100%;}
+}
+
+.animate{
+animation-name: animateD;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-delay: 1s;
+
+}
+
+.text-italic{
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+.margin-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+
+}
+
+form {
+	font-size:$textSm;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	height: auto;
+	width:auto;
+	background-color:rgba(89, 35, 22, 1.0) ;
+	border: double 5px rgba(217, 187, 169, 1.0);
+	text-align: left;
+	align-items: center;
+}
+
+
+.titule{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size:$textSm;
+	background-color: map-get($map:$paleta,$key:'titulopromo') ;
+	border: double 4px $colorPrincipal;
+	text-align: center;
+}
+
+.titule2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size:$textSm;
+	background-color: map-get($map:$paleta,$key:'titulopromo') ;
+	border: double 4px $colorSecundario;
+	text-align: center;
+}
+
+.contenido{
+	font-family: 'Roboto', sans-serif;
+	font-size:$textXsm;
+	padding: 10px;
+	background-color:map-get($map:$paleta,$key:'bordes');
+	border: double 4px map-get($map:$paleta,$key:'principal');
+	text-align:left;
+	text-decoration:inherit;
+}
+
+.contenidoTexto{
+	font-family: 'Roboto', sans-serif;
+	font-size:$textXsm;
+	color:black;
+	font-weight: bold;
+	background-color:map-get($map:$paleta,$key:'bordes');
+	text-align:left;
+}
+
+
+.imagendes{
+	border: double 5px $colorSecundario;
+
+}

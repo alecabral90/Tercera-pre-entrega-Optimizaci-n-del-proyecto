@@ -1,0 +1,101 @@
+INDEX------------------------------------------
+
+
+version desktop
+https://wireframe.cc/FAQHSV
+
+
+
+version mobile
+https://wireframe.cc/L28BdX
+
+
+
+TITLE	Paki Cake 
+	
+1	ENCABEZADO
+2	NAVEGATION BUTTONS
+3	IMÁGENES DESLIZABLES
+4	PROMOCIONES DEL MES
+5	REGALOS
+6	SUSCRIBIRSE
+7	MAPS
+8	FOOTER LINKS
+
+
+
+
+DESAYUNOS Y MERIENDAS-----------------------
+
+version desktop
+https://wireframe.cc/RefGbA
+
+
+version mobile
+https://wireframe.cc/J3oWCA
+
+
+TITLE	Paki Cake
+	
+1	ENCABEZADO
+2	NAVEGATION BUTTONS
+3	IMÁGENE
+4	COMBO PAKI
+5	FOOTER LINKS
+
+
+PICADAS-----------------------
+
+version desktop
+https://wireframe.cc/RKJUuL
+
+
+version mobile
+https://wireframe.cc/7bUIbw
+
+
+TITLE	Paki Cake
+	
+1	ENCABEZADO
+2	NAVEGATION BUTTONS
+3	IMÁGENE
+4	PICADAS COMBOS
+5	FOOTER LINKS
+
+MIX TORTAS-------------------------------------
+
+
+version desktop
+https://wireframe.cc/NzDxrl
+
+
+version mobile
+https://wireframe.cc/huVKUi
+
+
+TITLE	Paki Cake
+	
+1	ENCABEZADO
+2	NAVEGATION BUTTONS
+3	IMÁGENE
+4	MIX
+5       IMAGENES
+6	FOOTER LINKS
+
+ARTESANIAS REGALOS------------------------------
+
+version desktop
+https://wireframe.cc/7GQhXu
+
+
+version mobile
+https://wireframe.cc/VKlITA
+
+1	ENCABEZADO
+2	NAVEGATION BUTTONS
+3	IMÁGENE
+4	COSITAS PAKI
+5       IMAGENES
+6	FOOTER LINKS
+
+

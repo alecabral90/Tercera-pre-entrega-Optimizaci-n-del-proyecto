@@ -1,0 +1,31 @@
+//extends
+
+.imagen-more{
+	 display: flex;
+  flex-direction: center;
+  border: double 5px $colorSecundario;
+}
+
+.imagen-principal{
+	@extend .imagen-more;
+	width: 97%;
+	height: 97%;
+	}
+
+
+@mixin texto($color, $tamaño){
+color: $color;
+font-size: $tamaño;
+font-family: "Roboto", sans-serif;
+width: 100%;
+background-color: rgba(89, 35, 22, 0.8);
+border: double 1px rgb(217, 187, 169);
+text-align: center;
+}
+
+
+$paleta:(
+		'principal':rgb(89, 35, 22),
+    'bordes':rgb(217, 187, 169),
+    'principaltransp':rgba(89, 35, 22, 0.8),
+    'titulopromo':rgba(217, 58, 43, 0.8),);
